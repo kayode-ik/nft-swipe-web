@@ -1,0 +1,135 @@
+.textBottom {
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.1);
+  /* glass effect */
+  backdrop-filter: blur(30px);
+  padding: 0.5rem;
+  width: 150px;
+  position: absolute;
+  top: 37rem;
+  margin-left: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop-content {
+  background-image: url("/assets/images/dropBg.svg");
+  background-repeat: no-repeat;
+  width: 1392px;
+  height: 450px;
+}
+.recommend-wrapper {
+  background-image: url("/assets/images/recommendBg.svg");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  width: 1392px;
+  height: 450px;
+}
+
+.dropTextCont h6 {
+  position: relative;
+  top: 16rem;
+}
+
+.dropBottom {
+  position: relative;
+  top: 17rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mintBtn {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.25);
+
+  /* glass effect */
+  backdrop-filter: blur(30px);
+}
+
+.rec-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5rem;
+}
+.rec-contentText {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  /* glass effect */
+  backdrop-filter: blur(30px);
+  width: 516px;
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+
+.cat-contentText {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 0px 0px 24px 24px;
+  background: #fff;
+}
+
+.cat-image {
+  width: 300px;
+  /* height: 280px; */
+  background-color: white;
+  border-radius: 24px 24px 24px 24px;
+}
+
+.collector-contentText {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 0px 0px 24px 24px;
+  background: #fff;
+}
+
+.collector-image {
+  width: 300px;
+  /* height: 280px; */
+  background-color: white;
+  border-radius: 24px 24px 24px 24px;
+}
+
+.nftloan-wrapper {
+  background-image: url("/assets/images/nftLoanBg.svg");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* width: 100%; */
+  width: 1392px;
+  height: 450px;
+  background-color: #ebf9fa;
+  border-radius: 48px;
+  background-position: bottom;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nftLoan-body {
+  display: flex;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 53px;
+  border-radius: 48px;
+  background: rgba(0, 0, 0, 0.25);
+
+  /* glass effect */
+  backdrop-filter: blur(30px);
+  width: 695px;
+  height: 150px;
+}
